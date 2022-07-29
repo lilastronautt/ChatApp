@@ -1,0 +1,53 @@
+.form {
+  width: 20rem;
+  max-width: 90%;
+  margin: 10rem auto;
+  text-align: center;
+}
+
+.form h1 {
+  color: black;
+}
+
+.form-control {
+  background-color: rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin: 1rem;
+  border-radius: 3px;
+  color: white;
+  padding: 0.5rem 1rem;
+}
+
+input {
+  border: none;
+  background: transparent;
+  width: 100%;
+}
+
+input:focus {
+  outline: none;
+}
+
+.form-actions {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.form-actions button {
+  color: white;
+  background: rgba(0, 132, 240, 255);
+  width: 20rem;
+  max-width: 90%;
+  padding: 0.5rem 1rem;
+  border: 1px solid rgba(0, 132, 240, 255);
+  border-radius: 3px;
+}
+
+.form-actions button:hover {
+  background: rgba(0, 132, 240, 0.7);
+  cursor: pointer;
+}
+
+.error {
+  color: orangered;
+}
